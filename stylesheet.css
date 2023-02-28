@@ -85,6 +85,8 @@ body {
 #menu-bio-image {
     width: auto;
     height: clamp(5rem, 25vw + 10rem, 40rem);
+    position: absolute;
+    right: clamp(4rem, 5vw, 48rem);
 }
 
 #menu-items:hover ~ #menu-background-pattern {
