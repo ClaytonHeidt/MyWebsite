@@ -8,11 +8,12 @@ body {
     display: flex;
     height: 100vh;
     height: 100svh;
+	flex-wrap: wrap;
 }
 
 #menu-items {
-    margin-left: clamp(4rem, 5vw, 48rem);
-    position: relative;
+    margin-left: 5%;
+    position: absolute;
     z-index: 3;
 }
 
@@ -82,14 +83,36 @@ body {
     z-index: 0;
 }
 
-#menu-bio-image {
-    width: auto;
-    height: clamp(5rem, 25vw + 10rem, 40rem);
-    position: absolute;
-    right: clamp(4rem, 5vw, 48rem);
-    border-radius: 5%;
+#menu-bio {
     opacity: 1;
     transition: opacity 800ms ease;
+    display: flex;
+	flex-wrap: wrap-reverse;
+    align-items: center;
+    margin-right: 5%;
+    position: absolute;
+    right: 0px;
+    z-index: 3;
+    background: rgb(37, 37, 37, .5);
+    border-radius: 5%;
+}
+
+#menu-bio-text {
+    color: white;
+    position: relative;
+    font-family: 'Ibarra Real Nova', serif;
+    font-size: clamp(1rem, 1vw + 1rem, 4rem);
+    max-width: clamp(10rem, 10vw + 10rem, 30rem);
+    word-wrap: break-word;
+    margin-left: clamp(1rem, 2vw + 1rem, 3rem);
+    margin-right: clamp(1rem, 2vw + 1rem, 3rem);
+}
+
+#menu-bio-image {
+    width: clamp(3rem, 15vw + 5rem, 20rem);
+    height: auto;
+    position: relative;
+    border-radius: 5%;
 }
 
 #menu-items:hover ~ #menu-background-pattern {
@@ -110,7 +133,7 @@ body {
     opacity: 1; 
 }
 
-#menu-items:hover ~ #menu-bio-image {
+#menu-items:hover ~ #menu-bio {
     opacity: 0.3;
 }
 
@@ -124,3 +147,7 @@ body {
     text-decoration: none;
     transition: opacity 400ms ease;
 }
+
+a {
+    color: white;
+  }
