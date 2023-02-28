@@ -13,7 +13,7 @@ body {
 #menu-items {
     margin-left: clamp(4rem, 5vw, 48rem);
     position: relative;
-    z-index: 2;
+    z-index: 3;
 }
 
 #menu[data-active-index="0"] > #menu-background-pattern {
@@ -63,7 +63,7 @@ body {
         background-size 800ms ease,
         background-position 800ms ease;
     width: 100vw;
-    z-index: 1;
+    z-index: 2;
 }
 
 #menu-background-image {
@@ -80,6 +80,11 @@ body {
         background-position 800ms ease;
     width: 100%;
     z-index: 0;
+}
+
+#menu-bio-image {
+    width: auto;
+    height: clamp(5rem, 25vw + 10rem, 40rem);
 }
 
 #menu-items:hover ~ #menu-background-pattern {
@@ -105,7 +110,7 @@ opacity: 1;
     cursor: pointer;
     display: block;
     font-family: 'Ibarra Real Nova', serif;
-    font-size: clamp(3rem, 8vw, 6rem);
+    font-size: clamp(3rem, 5vw + 1rem, 6rem);
     padding: clamp(0.25rem, 0.5vw, 1rem) 0rem;
     text-decoration: none;
     transition: opacity 400ms ease;
