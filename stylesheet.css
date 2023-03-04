@@ -9,11 +9,13 @@ body {
     height: 100vh;
     height: 100svh;
 	flex-wrap: wrap;
+    position: relative;
+    justify-content: space-evenly;
 }
 
 #menu-items {
     margin-left: 5%;
-    position: absolute;
+    position: relative;
     z-index: 3;
 }
 
@@ -87,13 +89,13 @@ body {
     opacity: 1;
     transition: opacity 800ms ease;
     display: flex;
-	flex-wrap: wrap-reverse;
+	flex-wrap: wrap;
     align-items: center;
     margin-right: 5%;
-    position: absolute;
+    position: relative;
     right: 0px;
     z-index: 3;
-    background: rgb(37, 37, 37, .5);
+    background: rgba(37, 37, 37, .5);
     border-radius: 5%;
 }
 
