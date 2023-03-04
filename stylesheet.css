@@ -13,7 +13,6 @@ body {
 }
 
 #menu-items {
-    margin-left: 5%;
     position: relative;
     z-index: 3;
 }
@@ -90,7 +89,6 @@ body {
     display: flex;
 	flex-wrap: wrap;
     align-items: center;
-    margin-right: 5%;
     position: relative;
     right: 0px;
     z-index: 3;
