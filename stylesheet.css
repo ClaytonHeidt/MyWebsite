@@ -150,3 +150,9 @@ body {
 a {
     color: white;
   }
+
+@media (max-width: 800px), (orientation: portrait) {
+    #menu {
+        flex-direction: column;
+    }
+} 
