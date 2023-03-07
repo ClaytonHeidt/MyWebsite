@@ -33,6 +33,10 @@ body {
     background-position: 0% -100%;
 }
 
+#menu[data-active-index="4"] > #menu-background-pattern {
+    background-position: 0% -125%;
+}
+
 #menu[data-active-index="0"] > #menu-background-image {
     background-position: center 45%;
 }
