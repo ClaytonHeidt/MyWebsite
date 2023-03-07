@@ -87,9 +87,7 @@ body {
     opacity: 1;
     transition: opacity 800ms ease;
     display: flex;
-	flex-wrap: wrap;
     align-items: center;
-    position: relative;
     right: 0px;
     z-index: 3;
     background: rgba(37, 37, 37, .5);
