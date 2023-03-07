@@ -113,6 +113,7 @@ body {
     height: auto;
     position: relative;
     border-radius: 5%;
+    margin-left: clamp(1rem, 1vw + 1rem, 3rem);
 }
 
 #menu-items:hover ~ #menu-background-pattern {
