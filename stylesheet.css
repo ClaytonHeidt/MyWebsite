@@ -53,6 +53,10 @@ body {
     background-position: center 60%;
 }
 
+#menu[data-active-index="4"] > #menu-background-image {
+    background-position: center 65%;
+}
+
 #menu-background-pattern {
     background-image: radial-gradient(
         rgba(255, 255, 255, 0.1) 9%, 
