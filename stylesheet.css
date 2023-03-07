@@ -101,10 +101,11 @@ body {
     position: relative;
     font-family: 'Ibarra Real Nova', serif;
     font-size: clamp(1rem, 1vw + 1rem, 4rem);
-    max-width: clamp(10rem, 10vw + 10rem, 30rem);
+    max-width: clamp(10rem, 15vw + 10rem, 40rem);
     word-wrap: break-word;
-    margin-left: clamp(1rem, 2vw + 1rem, 3rem);
-    margin-right: clamp(1rem, 2vw + 1rem, 3rem);
+    margin-left: clamp(1rem, 1vw, 3rem);
+    margin-right: clamp(1rem, 1vw, 3rem);
+    text-align: center;
 }
 
 #menu-bio-image {
