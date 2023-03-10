@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="utf-8">
+  	<meta name="Author" content="Clayton Heidt">
+	<title>Clayton Heidt | Portfolio</title>
+	<link rel="stylesheet" href="stylesheet.css">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+</head>
+
+<body>
+    <div id="menu">
+        <div id="menu-items">
+            <div class="menu-item" onclick="window.location.href = 'index.html';">Home</div>
+            <div class="menu-item" onclick="window.open('https://www.linkedin.com/in/claytonheidt/');">LinkedIn</div>
+            <div class="menu-item" onclick="window.open('https://github.com/ClaytonHeidt');">GitHub</div>
+            <div class="menu-item" onclick="window.open('https://itch.io/profile/crimsonite');">itch.io</div>
+            <div class="menu-item" onclick="window.open('Files/ClaytonHeidt-Resume.pdf');">Resume</div>
+        </div>
+        <div id="menu-bio">
+            <img id="menu-bio-image" src="Pictures/me.jpg">
+            <div id="menu-bio-text">
+                Test
+            </div>
+        </div>
+        <div id="menu-background-pattern"></div>
+        <div id="menu-background-image"></div>
+    </div>
+</body>
+
+<script>
+    const menu = document.getElementById("menu");
+
+    Array.from(document.getElementsByClassName("menu-item"))
+    .forEach((item, index) => {
+        item.onmouseover = () => {
+        menu.dataset.activeIndex = index;
+        }
+    });
+</script>
