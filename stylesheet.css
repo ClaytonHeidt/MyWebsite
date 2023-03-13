@@ -91,22 +91,6 @@ body {
     z-index: 0;
 }
 
-#portfolio-background-image {
-    background-image: url("Pictures/sphere.jpg");
-    background-position: center 40%;
-    background-size: 110vmax;
-    height: 100%;
-    left: 0px;  
-    opacity: 0.15;
-    position: absolute;
-    top: 0px;
-    transition: opacity 800ms ease,
-        background-size 800ms ease,
-        background-position 800ms ease;
-    width: 100%;
-    z-index: 0;
-}
-
 #menu-bio {
     opacity: 1;
     transition: opacity 800ms ease;
@@ -147,6 +131,7 @@ body {
     background-size: 100vmax;
     opacity: 0.1;
 }
+
 
 #menu-items:hover > .menu-item {
     opacity: 0.3;
