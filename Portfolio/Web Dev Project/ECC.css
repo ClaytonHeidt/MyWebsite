@@ -1,0 +1,82 @@
+.margin {margin: 0;}
+
+.logo {border-radius: 50%;
+	display: block;
+	margin-left: auto;
+	margin-right: auto;
+	background-color: white;
+	width: 120px}
+
+.cover {background-image: url("pics/youareloved.jpg");
+	background-size: cover;
+	background-color: black;}
+
+.corn {background-color: lavender;}
+
+.heading {clear: left;
+	margin: 0;
+	text-align: center;
+	color: white;
+	font-weight: bold;
+	display: flex;
+	flex-direction: column;
+	font-size: 400%;
+	padding: 225px 0 225px 0;}
+
+.evangel {clear: left;
+	margin: 0;
+	text-align: center;
+	color: white;
+	font-weight: bold;
+	display: flex;
+	flex-direction: column;
+	font-size: 300%;
+	padding: 25px 0 400px 0;}
+
+.time {clear: left;
+	margin: 0;
+	text-align: center;
+	color: white;
+	font-weight: bold;
+	display: flex;
+	flex-direction: column;
+	font-size: 200%;
+	padding-bottom: 25px;}
+
+
+.nav {color: white;
+	display: flex;
+	justify-content: space-around;
+	font-family: arial;
+	font-size: xx-large;
+	font-weight: bold;
+	padding-top: 75px;}
+
+.visit {font-family: arial;
+	font-size: 125%;
+	width: 675px;
+	padding: 10px 20px 25px 0px;}
+
+
+.center {display: flex;
+	flex-wrap: wrap;
+	font-family: arial;
+	justify-content: center;
+	padding: 25px 0 0 0;
+	align-items: center;}
+
+.a {color: white;
+	text-decoration: none;}
+
+
+.form {font-family: arial;
+	flex-direction: column;
+	padding: 20px;}
+
+.footer {font-family: "Times New Roman", Times, serif;
+	display: flex;
+	background-color: #303030;
+	color: white;
+	padding: 25px 15px 25px 10px;}
+
+.footerpadding{padding-left: 20px;}
