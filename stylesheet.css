@@ -82,7 +82,7 @@ body {
     height: 100%;
     left: 0px;  
     opacity: 0.15;
-    position: absolute;
+    position: fixed;
     top: 0px;
     transition: opacity 800ms ease,
         background-size 800ms ease,
