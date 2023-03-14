@@ -57,6 +57,14 @@ body {
     background-position: center 65%;
 }
 
+#menu[data-active-index="5"] > #menu-background-image {
+    background-position: center 70%;
+}
+
+#menu[data-active-index="6"] > #menu-background-image {
+    background-position: center 75%;
+}
+
 #menu-background-pattern {
     background-image: radial-gradient(
         rgba(255, 255, 255, 0.1) 9%, 
@@ -66,7 +74,7 @@ body {
     background-size: 12vmin 12vmin;
     height: 100vh;
     left: 0px;
-    position: absolute;
+    position: fixed;
     top: 0px;
     transition: opacity 800ms ease, 
         background-size 800ms ease,
