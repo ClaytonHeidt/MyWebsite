@@ -37,6 +37,14 @@ body {
     background-position: 0% -125%;
 }
 
+#menu[data-active-index="5"] > #menu-background-pattern {
+    background-position: 0% -150%;
+}
+
+#menu[data-active-index="6"] > #menu-background-pattern {
+    background-position: 0% -175%;
+}
+
 #menu[data-active-index="0"] > #menu-background-image {
     background-position: center 45%;
 }
